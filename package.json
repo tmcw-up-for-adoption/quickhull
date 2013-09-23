@@ -1,0 +1,16 @@
+{
+  "name": "quickhull",
+  "version": "0.0.0",
+  "description": "derive a context hull from a list of points",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "quick",
+    "hull",
+    "geometry"
+  ],
+  "author": "",
+  "license": "BSD-2-Clause"
+}
