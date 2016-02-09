@@ -5,7 +5,7 @@
  * @returns {Number} an approximate distance measure
  */
 function getDistant(cpt, bl) {
-    var vY = bl[1].x - bl[0].x,
+    var vY = bl[1].y - bl[0].y,
         vX = bl[0].x - bl[1].x;
     return (vX * (cpt.y - bl[0].y) + vY * (cpt.x - bl[0].x));
 }
